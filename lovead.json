@@ -6,18 +6,28 @@
     "lovead": [
         {
             "img": "https://i0.hdslb.com/bfs/charity-interface/7ad41b6f76ffa37fd167234dc5ddaa0559a3b9c9.png",
-            "text": "https://app.csls.eu.org/img/SLSAD/SLSAD1.svg",
+            "text": "https://cdn.jsdelivr.net/cqnb/sls-lovead-service@main/img/7ad41b6f76ffa37fd167234dc5ddaa0559a3b9c9.svg",
             "url": "https://love.bilibili.com/detail?uuid=f439d28251"
         },
         {
-            "img": "2",
-            "text": "2",
-            "url": "2"
+            "img": "https://i0.hdslb.com/bfs/charity-interface/ff3676a7d2255dc35a7f0963ec4e391003119f87.jpg",
+            "text": "https://cdn.jsdelivr.net/cqnb/sls-lovead-service@main/img/ff3676a7d2255dc35a7f0963ec4e391003119f87.svg",
+            "url": "https://love.bilibili.com/detail?uuid=1cbdefa74a"
         },
         {
-            "img": "3",
-            "text": "3",
-            "url": "3"
+            "img": "https://i0.hdslb.com/bfs/charity-interface/da7bf04881597a4b9f4d03b0d2034d09cfd4d5c8.jpg",
+            "text": "https://cdn.jsdelivr.net/cqnb/sls-lovead-service@main/img/da7bf04881597a4b9f4d03b0d2034d09cfd4d5c8.svg",
+            "url": "https://love.bilibili.com/detail?uuid=f3289a42bc"
+        },
+        {
+            "img": "https://i0.hdslb.com/bfs/charity-interface/b49dededee680d78337aabc0d7bed2c6a198a3b5.jpg",
+            "text": "https://cdn.jsdelivr.net/cqnb/sls-lovead-service@main/img/b49dededee680d78337aabc0d7bed2c6a198a3b5.svg",
+            "url": "https://love.bilibili.com/detail?uuid=2c96ba7952"
+        },
+        {
+            "img": "https://i0.hdslb.com/bfs/charity-interface/11c57d90fcb68a109117a5f832be732dbb49a972.png",
+            "text": "https://cdn.jsdelivr.net/cqnb/sls-lovead-service@main/img/11c57d90fcb68a109117a5f832be732dbb49a972.svg",
+            "url": "https://love.bilibili.com/detail?uuid=be3ec89e83"
         }
     ],
     "wlovead": [
@@ -25,16 +35,6 @@
             "img": "https://i0.hdslb.com/bfs/charity-interface/7ad41b6f76ffa37fd167234dc5ddaa0559a3b9c9.png",
             "text": "https://app.csls.eu.org/img/SLSAD/SLSAD1.svg",
             "url": "https://love.bilibili.com/detail?uuid=f439d28251"
-        },
-        {
-            "img": "2",
-            "text": "2",
-            "url": "2"
-        },
-        {
-            "img": "3",
-            "text": "3",
-            "url": "3"
         }
     ]
 }
