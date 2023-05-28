@@ -3,6 +3,7 @@
 }
 
 #sls_lovead_div {
+    position: relative;
     overflow: hidden;
 }
 
