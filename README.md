@@ -59,6 +59,12 @@
 </style>
 ```
 
+<div id="sls_lovead"></div>
+<script src="https://cqnb.github.io/sls-lovead-service/api/lovead.js"></script>
+<style>
+    @import url("https://cqnb.github.io/sls-lovead-service/css/lovead.css");
+</style>
+
 ## 关于内容
 在公益广告内容方面本站/雾雪梦创/白喵影像仅提供广告展示服务，出现任何问题与我们无关。
 
