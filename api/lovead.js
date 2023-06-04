@@ -3,16 +3,16 @@ const sls_lovead_id = document.querySelectorAll('#sls_lovead')
 for (var i = 0; i < sls_lovead_id.length; i++) {
     console.log(sls_lovead_id[i]);
     sls_lovead_id[i].insertAdjacentHTML('afterbegin', sls_lovead_html)
+    fetch('https://raw.githubusercontent.com/cqnb/sls-lovead-service/main/lovead.json')
+        .then(response => response.json())
+        .then(data => {
+            var sls_lovead_div = document.querySelectorAll('#sls_lovead_div')[i]
+            var sls_lovead_img = document.querySelectorAll('#sls_lovead_img')[i]
+            var sls_lovead_text = document.querySelectorAll('#sls_lovead_text')[i]
+            var sls_lovead_num = Math.floor(Math.random() * (data.lovead.length - 0));
+            sls_lovead_div.setAttribute("onclick", `window.open('${data.lovead[sls_lovead_num].url}');`)
+            sls_lovead_text.src = data.lovead[sls_lovead_num].text
+            sls_lovead_img.src = data.lovead[sls_lovead_num].img
+        })
+        .catch(console.error)
 }
-fetch('https://raw.githubusercontent.com/cqnb/sls-lovead-service/main/lovead.json')
-    .then(response => response.json())
-    .then(data => {
-        const sls_lovead_div = document.getElementById('sls_lovead_div')
-        const sls_lovead_img = document.getElementById('sls_lovead_img')
-        const sls_lovead_text = document.getElementById('sls_lovead_text')
-        const sls_lovead_num = Math.floor(Math.random() * (data.lovead.length - 0));
-        sls_lovead_div.setAttribute("onclick", `window.open('${data.lovead[sls_lovead_num].url}');`)
-        sls_lovead_text.src = data.lovead[sls_lovead_num].text
-        sls_lovead_img.src = data.lovead[sls_lovead_num].img
-    })
-    .catch(console.error)
