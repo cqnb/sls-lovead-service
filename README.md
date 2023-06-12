@@ -36,7 +36,7 @@
 
 2. 引入js
 ```html
-<script src="https://cqnb.github.io/sls-lovead-service/api/lovead.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/cqnb/sls-lovead-service/api/lovead.js"></script>
 ```
 | 广告大小 | 描述 |
 | ------------ | --------------- |
@@ -46,20 +46,11 @@
 3. 引入css
 ```html
 <style>
-    @import url("https://cqnb.github.io/sls-lovead-service/css/lovead.css");
+    @import url("https://cdn.jsdelivr.net/gh/cqnb/sls-lovead-service/css/lovead.css");
 </style>
 ```
 
 ## 示例
-```html
-<div id="sls_lovead"></div>
-<script src="https://cqnb.github.io/sls-lovead-service/api/lovead.js"></script>
-<style>
-    @import url("https://cqnb.github.io/sls-lovead-service/css/lovead.css");
-</style>
-```
-
-### 使用jsDelivr CDN
 ```html
 <div id="sls_lovead"></div>
 <script src="https://cdn.jsdelivr.net/gh/cqnb/sls-lovead-service/api/lovead.js"></script>
@@ -67,6 +58,8 @@
     @import url("https://cdn.jsdelivr.net/gh/cqnb/sls-lovead-service/css/lovead.css");
 </style>
 ```
+
+<div id="sls_lovead"></div>
 
 ## 待办
 - [x] 支持一个页面多个同规格广告
